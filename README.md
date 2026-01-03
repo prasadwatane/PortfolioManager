@@ -1,9 +1,9 @@
 # PortfolioManager
 PortfolioManager
-The application follows Clean Architecture principles with the following layers:
+The application is organized into four distinct layers, each with a well-defined responsibility:
 
 PortfolioManager/
 ├── Domain/           # Core business entities and domain logic
-├── Application/      # Application services, use cases, and commands
-├── Infra/            # Infrastructure concerns (file system, data access)
+├── Application/      # Use cases, application services, and commands
+├── Infra/            # Infrastructure (file system, data access)
 └── Presentation/    # Console-based user interface
