@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "PrasadWatanePortfolioManager": {
+      "commandName": "Project",
+      "commandLineArgs": "prasad_watane_sample_input1.txt"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
